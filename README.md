@@ -9,6 +9,7 @@
     <img src="images/marketwhale.png" alt="Logo" width="80" height="80">
   </a>
 
+
 <h3 align="center">Marketwhale</h3>
 
   <p align="center">
@@ -63,14 +64,16 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Python.](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* 
+* python 3.7.10
+* jupyterlab 3.0.14
+* pandas 1.2.4
+* numpy 1.19.5
+* hvplot 0.7.3
+* scikit-learn 0.24.1
+* tensorflow 2.6.0
+* sklearn 0.22.2.post1
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
