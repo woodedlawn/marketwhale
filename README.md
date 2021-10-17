@@ -1,6 +1,5 @@
 <div id="top"></div>
 
-[![MIT License][license-shield]][https://choosealicense.com/licenses/mit/]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -12,16 +11,10 @@
 <h3 align="center">Marketwhale</h3>
 
   <p align="center">
-    MarketWhale is a project dedicated to researching, testing, and providing users with machine learning enhanced algorithmic trading bots that make accurate predictions for crypto currency.
+MarketWhale is a project dedicated to researching, testing, and providing users with machine learning enhanced algorithmic trading bots that make accurate predictions for crypto currency.
     <a href="https://github.com/woodedlawn/marketwhale.git">View Demo</a>
-    ·
-    <a href="https://github.com/woodedlawn/marketwhale.git/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/woodedlawn/marketwhale.git/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
