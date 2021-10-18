@@ -30,57 +30,46 @@ MarketWhale is a project dedicated to researching, testing, and providing users 
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contributing</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+The project utilizes SVM, LSTM, and CNN models in order to forecast future crypto prices. Based on testing, the model for SVM that utilizes the fear and greed index performs better than LSTM/CNN models. Future steps involve creating a hybrid of LSTM and CNN models with the fear and greed index to increase accuracy. There are also plans to integrate trading strategies into the algorithm and utilize 1-minute price data instead of hourly data. Increasing accuracy above 51 - 53% percent is a future goal of our company. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
 * python 3.7.10
 * jupyterlab 3.0.14
 * pandas 1.2.4
+* yfinance 0.1.63
 * numpy 1.19.5
 * hvplot 0.7.3
+* math 1.2.1
+* 
 * scikit-learn 0.24.1
 * tensorflow 2.6.0
-* sklearn 0.22.2.post1
+* sci-kit learn 0.22.2.post1
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To setup this algorithm locally on your desktop, please clone the repo.
+After cloning the repo, you can run the program utilizing jupyter lab/notebook.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+The machine learning model was already run through Google Colab. 
+A saved LSTM and CNN model is saved in json and you can use those models. 
 
 ### Installation
 
@@ -97,10 +86,7 @@ This is an example of how to list things you need to use the software and how to
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -111,29 +97,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/woodedlawn/marketwhale.git/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License.
-See [license txt] (https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+See [license txt](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTERS -->
 ## Contributers
@@ -146,11 +116,9 @@ Project Link: [https://github.com/woodedlawn/marketwhale.git](https://github.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+Credit to creator of readme template. The repo also has useful resources. 
 * [README Template](https://github.com/othneildrew/Best-README-Template.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
