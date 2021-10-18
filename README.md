@@ -117,8 +117,8 @@ Project Link: [https://github.com/woodedlawn/marketwhale.git](https://github.com
 ## References
 Research related resources and repos. 
 * [CNN-LSTM Crypto Forecasting](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
-*[Cryptocurrency price prediction models](https://academic.microsoft.com/paper/3125634108/citedby/search?q=Anticipating%20cryptocurrency%20prices%20using%20machine%20learning&qe=RId%253D3125634108&f=&orderBy=0)
-*[Neural Networks for Algorithmic Trading](https://alexrachnog.medium.com/neural-networks-for-algorithmic-trading-backtesting-in-pandas-4940fec2175e)
+* [Cryptocurrency price prediction models](https://academic.microsoft.com/paper/3125634108/citedby/search?q=Anticipating%20cryptocurrency%20prices%20using%20machine%20learning&qe=RId%253D3125634108&f=&orderBy=0)
+* [Neural Networks for Algorithmic Trading](https://alexrachnog.medium.com/neural-networks-for-algorithmic-trading-backtesting-in-pandas-4940fec2175e)
 * [Backtesting for stocks](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
 * [Using saved ML models](https://towardsdatascience.com/saving-and-loading-keras-model-42195b92f57a)
 * [Brief overview of neural network](https://github.com/VivekPa/IntroNeuralNetworks?ref=pythonrepo.com)
