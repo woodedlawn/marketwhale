@@ -33,16 +33,17 @@ MarketWhale is a project dedicated to researching, testing, and providing users 
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#Data">Data</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contributing</a></li>
+    <li><a href="#references">References</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The project utilizes SVM, LSTM, and CNN models in order to forecast future crypto prices. Based on testing, the model for SVM that utilizes the fear and greed index performs better than LSTM/CNN models. Future steps involve creating a hybrid of LSTM and CNN models with the fear and greed index to increase accuracy. There are also plans to integrate trading strategies into the algorithm and utilize 1-minute price data instead of hourly data. Increasing accuracy above 51 - 53% percent is a future goal of our company. 
+The project utilizes SVM, LSTM, and CNN models in order to forecast future crypto prices. Based on testing, the model for SVM that utilizes the fear and greed index performs better than LSTM/CNN models. Future steps involve creating a hybrid of LSTM and CNN models with the fear and greed index to increase accuracy. In general, machine learning models tend to have prediction rates above 50% which is considered good but application using live data tends to perform worse than prediction. Once the models are complete, backtesting will be performed to check degree of accuracy and if predications can be applied to live data. There are also plans to integrate trading strategies into the algorithm and utilize 1-minute price data instead of hourly data. Increasing accuracy above 51 - 53% percent and making sure that the model performs well in the market is a future goal of our company.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -77,23 +78,25 @@ A saved LSTM and CNN model is saved in json and you can use those models so you 
    ```sh
    git clone 
    ```
-3. Install required libraries
+2. Install required python packages listed in the ipynb file. 
    ```sh
    use conda or pip install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Run the file in jupyter lab/notebook
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Data -->
+## Data
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
+
+
 _For more examples, please refer to the [Documentation](https://example.com)_
 
+
+*Models can be backtested by using the following resource [Backtesting](https://github.com/sabirjana/blog/blob/master/Classification_ML/sj_claasification_ml.ipynb). The code can be reworked to apply 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -107,13 +110,24 @@ See [license txt](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 <!-- CONTRIBUTERS -->
 ## Contributers
 
-Jonathan Woolsey 
-Rodrigo Monge 
-Jasmine Tengsico
+Jonathan Woolsey - neural network
+Rodrigo Monge - algorithmic trading
+Jasmine Tengsico - research 
 
 Project Link: [https://github.com/woodedlawn/marketwhale.git](https://github.com/woodedlawn/marketwhale.git)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- References -->
+## References
+Research related resources and repos. 
+* [CNN-LSTM Crypto Forecasting](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
+*[Cryptocurrency price prediction models](https://academic.microsoft.com/paper/3125634108/citedby/search?q=Anticipating%20cryptocurrency%20prices%20using%20machine%20learning&qe=RId%253D3125634108&f=&orderBy=0)
+*[Neural Networks for Algorithmic Trading](https://alexrachnog.medium.com/neural-networks-for-algorithmic-trading-backtesting-in-pandas-4940fec2175e)
+* [Backtesting for stocks](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
+* [Using saved ML models](https://towardsdatascience.com/saving-and-loading-keras-model-42195b92f57a)
+* [Brief overview of neural network](https://github.com/VivekPa/IntroNeuralNetworks?ref=pythonrepo.com)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -121,4 +135,3 @@ Credit to creator of readme template. The repo also has useful resources.
 * [README Template](https://github.com/othneildrew/Best-README-Template.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
