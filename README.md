@@ -33,7 +33,7 @@ MarketWhale is a project dedicated to researching, testing, and providing users 
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Data">Data</a></li>
+    <li><a href="#Sample Data">Sample Data</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contributing</a></li>
     <li><a href="#references">References</a></li>
@@ -86,17 +86,13 @@ A saved LSTM and CNN model is saved in json and you can use those models so you 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Data -->
-## Data
+<!-- Sample Data -->
+## Sample Data
+SVM Model is shown below. 
+![svm_fear.greed.png](images/svm_fear.greed.png)
+![fear and greed.png](images/fear and greed.png)  
+![svm_plot.png](images/svm_plot.png)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-*Models can be backtested by using the following resource [Backtesting](https://github.com/sabirjana/blog/blob/master/Classification_ML/sj_claasification_ml.ipynb). The code can be reworked to apply 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
