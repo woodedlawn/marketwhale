@@ -90,7 +90,7 @@ A saved LSTM and CNN model is saved in json and you can use those models so you 
 ## Sample Data
 SVM Model is shown below. 
 ![svm_fear.greed.png](images/svm_fear.greed.png)
-![fear and greed.png](images/fear and greed.png)  
+![fear_and_greed.png](images/fear_and_greed.png)  
 ![svm_plot.png](images/svm_plot.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
