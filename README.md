@@ -55,7 +55,7 @@ The project utilizes SVM, LSTM, and CNN models in order to forecast future crypt
 * numpy 1.19.5
 * hvplot 0.7.3
 * math 1.2.1
-* 
+* finta 1.3
 * scikit-learn 0.24.1
 * tensorflow 2.6.0
 * sci-kit learn 0.22.2.post1
@@ -68,19 +68,18 @@ The project utilizes SVM, LSTM, and CNN models in order to forecast future crypt
 To setup this algorithm locally on your desktop, please clone the repo.
 After cloning the repo, you can run the program utilizing jupyter lab/notebook.
 
-The machine learning model was already run through Google Colab. 
-A saved LSTM and CNN model is saved in json and you can use those models. 
+The machine learning model was run using Google Colab. 
+A saved LSTM and CNN model is saved in json and you can use those models so you won't have to import the ipynb file to Google Colab to re-run the model. 
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone 
    ```
-3. Install NPM packages
+3. Install required libraries
    ```sh
-   npm install
+   use conda or pip install
    ```
 4. Enter your API in `config.js`
    ```js
