@@ -106,9 +106,9 @@ See [license txt](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 <!-- CONTRIBUTERS -->
 ## Contributers
 
-Jonathan Woolsey - neural network
-Rodrigo Monge - algorithmic trading
-Jasmine Tengsico - research 
+* Jonathan Woolsey - neural network
+* Rodrigo Monge - algorithmic trading
+* Jasmine Tengsico - research 
 
 Project Link: [https://github.com/woodedlawn/marketwhale.git](https://github.com/woodedlawn/marketwhale.git)
 <p align="right">(<a href="#top">back to top</a>)</p>
