@@ -129,7 +129,8 @@ See the [open issues](https://github.com/woodedlawn/marketwhale.git/issues) for 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License.
+See [license txt] (https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -150,9 +151,7 @@ Project Link: [https://github.com/woodedlawn/marketwhale.git](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [README Template](https://github.com/othneildrew/Best-README-Template.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
